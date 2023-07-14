@@ -220,7 +220,7 @@ body:hover::-webkit-scrollbar-thumb {
 }
 
 .ci-bg-image p, .ci-bg-image h3{
-    z-index: 9999;
+    z-index: 99;
     position:relative;
     color: #fff;
 }

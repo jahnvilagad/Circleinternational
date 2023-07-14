@@ -17789,7 +17789,8 @@ input[type=search]::-webkit-search-results-decoration {
 	-webkit-animation: navbar-show .25s;
 	animation: navbar-show .25s;
 	background-color: #fff;
-	box-shadow: 0 .125rem .625rem -0.1875rem rgba(0, 0, 0, .1)
+	box-shadow: 0 .125rem .625rem -0.1875rem rgba(0, 0, 0, .1);
+	z-index: 9999;
 }
 
 @-webkit-keyframes navbar-show {
