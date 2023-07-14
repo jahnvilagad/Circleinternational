@@ -3,6 +3,11 @@
 	font-family: "Montserrat-Regular";
 	src: url("../fonts/Montserrat-Regular.ttf") format("woff2");
   }
+  
+@font-face {
+	font-family: "Montserrat-Bold";
+	src: url("../fonts/Montserrat-Bold.ttf") format("woff2");
+  }
 
 .page-loading {
     position: fixed;
@@ -129,4 +134,96 @@ body:hover::-webkit-scrollbar-thumb {
 
 .text-montserrat{
     font-family: "Montserrat-Regular";
+}
+.text-montserrat-bold{
+    font-family: "Montserrat-Bold";
+}
+
+.bg-course{
+    background-image: url("../img/feather/circle-international-team-2.webp");
+    background-position: 100% center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.bg-course::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1f21;
+    opacity: .7;
+    z-index: 2;
+}
+
+.bg-course h1{
+    z-index: 9999;
+    position: relative;
+}
+
+.phd-course {
+    margin-top: -4rem;
+    z-index: 9999;
+    text-align: center;
+}
+
+.phd-course i{
+   font-size: 3rem;
+}
+
+.phd-course h3{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.phd-course h3:hover a{
+    text-decoration: unset;
+}
+
+.mba {
+    border-right: 1px solid rgba(204,204,204,.3);
+}
+
+.university-vitez{
+    background-color: #F1F3F7;
+}
+
+.university-vitez-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 2rem;
+}
+
+.ci-bg-image{
+    position: relative;
+    background-image: url("../img/feather/testimonial-bg-circle-international.jpg");
+    background-position: 100% center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.ci-bg-image:after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1f21;
+    opacity: .7;
+    z-index: 2;
+}
+
+.ci-bg-image p, .ci-bg-image h3{
+    z-index: 9999;
+    position:relative;
+    color: #fff;
+}
+.ci-bg-image p{
+    font-size: 1.5rem;
 }
