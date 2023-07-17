@@ -219,11 +219,89 @@ body:hover::-webkit-scrollbar-thumb {
     z-index: 2;
 }
 
-.ci-bg-image p, .ci-bg-image h3{
+.ci-image-content p, .ci-image-content h3{
     z-index: 99;
     position:relative;
     color: #fff;
 }
-.ci-bg-image p{
+.ci-image-content p{
     font-size: 1.5rem;
+}
+
+.img-frame{
+    position: relative;
+}
+.img-frame:after{
+    content: ' ';
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    bottom: 13px;
+    left: 13px;
+    border: 5px solid #fff;
+    z-index: 3;
+}
+
+.ci-bg-image-1{
+    position: relative;
+    background-image: url("../img/feather/testimonial-bg-2.webp");
+    background-position: 100% center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.ci-bg-image-1:after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3b43b2;
+    opacity: .7;
+    z-index: 2;
+}
+
+.img-box-shadow{
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+.accordion-item .accordion-button:not(.collapsed)::after{
+    margin-top: 9px !important;
+}
+
+.accordion:not(.accordion-flush) .accordion-body{
+    padding-top: 1.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #3b43b2;
+    color: #fff;
+}
+
+.accordion-item h2{
+    font-size: 16px;
+}
+
+.team-detail h2{
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: bold;
+}   
+
+
+
+@media (max-width:991px){
+    .university-vitez-content{
+        position: unset;
+        transform: unset;
+        padding: 0;
+    }
+}
+
+@media (max-width:767px){
+    .ci-bg-image p {
+        font-size: 1rem;
+    }
 }
