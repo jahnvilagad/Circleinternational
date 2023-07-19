@@ -5244,21 +5244,21 @@ fieldset:disabled .btn {
 
 .btn-danger {
 	color: #000;
-	background-color: #f74f78;
-	border-color: #f74f78;
+	background-color: #ed153e;
+	border-color: #ed153e;
 	box-shadow: unset
 }
 
 .btn-danger:hover {
 	color: #000;
-	background-color: #f8698c;
-	border-color: #f86186
+	background-color: #ed153e;
+	border-color: #ed153e
 }
 
 .btn-check:focus+.btn-danger,
 .btn-danger:focus {
 	color: #000;
-	background-color: #f8698c;
+	background-color: #ed153e;
 	border-color: #f86186;
 	box-shadow: unset, 0 0 0 0 rgba(210, 67, 102, .5)
 }
