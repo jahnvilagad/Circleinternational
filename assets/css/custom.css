@@ -364,19 +364,20 @@ body:hover::-webkit-scrollbar-thumb {
 
 .Advance-Slider button.slick-arrow {
     position: absolute;
-    z-index: 2;
-    top: 0;
-    bottom: 0;
+    top: 0px;
+    bottom: 0px;
     height: 50px;
-    width: 50px;
-    background: #fff;
+    width: 30px;
+    background: rgba(0,0,0,0.5);
     z-index: 99999;
     border: none;
     margin: auto;
-    font-size: 0;
+    font-size: 0px;
     text-align: center;
     outline: none;
     cursor: pointer;
+    color: #fff;
+    left: 30px;
 }
 
 .Advance-Slider .img-fill {
@@ -388,7 +389,7 @@ body:hover::-webkit-scrollbar-thumb {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    animation: myMove 10s linear infinite;
+    /* animation: myMove 10s linear infinite; */
 }
 
 .Advance-Slider .item {
@@ -398,16 +399,16 @@ body:hover::-webkit-scrollbar-thumb {
 }
 
 .Advance-Slider button.slick-next.slick-arrow {
-    right: 0;
+    right: 30px;
     left: auto;
 }
 
 .Advance-Slider button.slick-arrow:before {
-    content: "\f104";
+    content: "\F284";
     top: 0;
     left: 0;
     margin: auto;
-    font-family: fontawesome;
+    font-family: "bootstrap-icons";
     font-size: 18px;
 }
 
@@ -470,7 +471,7 @@ body:hover::-webkit-scrollbar-thumb {
     position: absolute;
     height: 100px;
     width: 150px;
-    left: 100%;
+    left: 132%;
     top: -28px;
     transform-origin: 0% 0%;
     transform: rotate3d(1, 0, 0, 90deg);
@@ -483,7 +484,7 @@ body:hover::-webkit-scrollbar-thumb {
 
 .Advance-Slider button.slick-next .thumb {
     left: auto;
-    right: 100%;
+    right: 132%;
 }
 
 .Advance-Slider button.slick-prev.hover-out .thumb,
@@ -587,9 +588,9 @@ body:hover::-webkit-scrollbar-thumb {
     transition: 0.3s ease 0s;
 }
 
-.Advance-Slider .item.slick-active {
+/* .Advance-Slider .item.slick-active {
     animation: Slick-FastSwipeIn 1s both;
-}
+} */
 
 .Advance-Slider .item .contain-wrapper {
     position: absolute;
