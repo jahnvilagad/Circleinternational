@@ -1,13 +1,12 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf") format("woff2");
+}
 
 @font-face {
-	font-family: "Montserrat-Regular";
-	src: url("../fonts/Montserrat-Regular.ttf") format("woff2");
-  }
-  
-@font-face {
-	font-family: "Montserrat-Bold";
-	src: url("../fonts/Montserrat-Bold.ttf") format("woff2");
-  }
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.ttf") format("woff2");
+}
 
 .page-loading {
     position: fixed;
@@ -120,26 +119,30 @@ body::-webkit-scrollbar-thumb {
 body:hover::-webkit-scrollbar-thumb {
     background: #3B43B2;
 }
-.navbar-light .nav-item.active , .navbar-light .nav-item:hover .nav-link{
-  background-color: rgb(59,67,178);
-  color: #fff;
-}
-.nav-item .nav-link:hover{
+
+.navbar-light .nav-item.active,
+.navbar-light .nav-item:hover .nav-link {
+    background-color: rgb(59, 67, 178);
     color: #fff;
 }
 
-.dropdown-item:hover{
+.nav-item .nav-link:hover {
+    color: #fff;
+}
+
+.dropdown-item:hover {
     padding-left: 10px;
 }
 
-.text-montserrat{
+.text-montserrat {
     font-family: "Montserrat-Regular";
 }
-.text-montserrat-bold{
+
+.text-montserrat-bold {
     font-family: "Montserrat-Bold";
 }
 
-.bg-course{
+.bg-course {
     background-image: url("../img/feather/circle-international-team-2.webp");
     background-position: 100% center;
     background-size: cover;
@@ -147,8 +150,8 @@ body:hover::-webkit-scrollbar-thumb {
     position: relative;
 }
 
-.bg-course::after{
-    content:"";
+.bg-course::after {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -159,7 +162,7 @@ body:hover::-webkit-scrollbar-thumb {
     z-index: 2;
 }
 
-.bg-course h1{
+.bg-course h1 {
     z-index: 9999;
     position: relative;
 }
@@ -170,24 +173,24 @@ body:hover::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
-.phd-course i{
-   font-size: 3rem;
+.phd-course i {
+    font-size: 3rem;
 }
 
-.phd-course h3{
+.phd-course h3 {
     font-size: 18px;
     font-weight: 800;
 }
 
-.phd-course h3:hover a{
+.phd-course h3:hover a {
     text-decoration: unset;
 }
 
 .mba {
-    border-right: 1px solid rgba(204,204,204,.3);
+    border-right: 1px solid rgba(204, 204, 204, .3);
 }
 
-.university-vitez{
+.university-vitez {
     background-color: #F1F3F7;
 }
 
@@ -198,7 +201,7 @@ body:hover::-webkit-scrollbar-thumb {
     padding: 0 2rem;
 }
 
-.ci-bg-image{
+.ci-bg-image {
     position: relative;
     background-image: url("../img/feather/testimonial-bg-circle-international.jpg");
     background-position: 100% center;
@@ -207,8 +210,8 @@ body:hover::-webkit-scrollbar-thumb {
     height: 100%;
 }
 
-.ci-bg-image:after{
-    content:"";
+.ci-bg-image:after {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -219,8 +222,8 @@ body:hover::-webkit-scrollbar-thumb {
     z-index: 2;
 }
 
-.ci-bg::after{
-    content:"";
+.ci-bg::after {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -231,30 +234,34 @@ body:hover::-webkit-scrollbar-thumb {
     z-index: 2;
 }
 
-.ci-bg p{
+.ci-bg p {
     font-size: 1rem;
     z-index: 9999;
     position: relative;
 }
-.ci-bg h3{
+
+.ci-bg h3 {
     font-size: 1.5rem;
     z-index: 9999;
     position: relative;
 }
 
-.ci-image-content p, .ci-image-content h3{
+.ci-image-content p,
+.ci-image-content h3 {
     z-index: 99;
-    position:relative;
+    position: relative;
     color: #fff;
 }
-.ci-image-content p{
+
+.ci-image-content p {
     font-size: 1.5rem;
 }
 
-.img-frame{
+.img-frame {
     position: relative;
 }
-.img-frame:after{
+
+.img-frame:after {
     content: ' ';
     position: absolute;
     top: 13px;
@@ -265,7 +272,7 @@ body:hover::-webkit-scrollbar-thumb {
     z-index: 3;
 }
 
-.ci-bg-image-1{
+.ci-bg-image-1 {
     position: relative;
     background-image: url("../img/feather/testimonial-bg-2.webp");
     background-position: 100% center;
@@ -274,8 +281,8 @@ body:hover::-webkit-scrollbar-thumb {
     height: 100%;
 }
 
-.ci-bg-image-1:after{
-    content:"";
+.ci-bg-image-1:after {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -286,15 +293,15 @@ body:hover::-webkit-scrollbar-thumb {
     z-index: 2;
 }
 
-.img-box-shadow{
-    box-shadow: 0 0 5px rgba(0,0,0,.1);
+.img-box-shadow {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
 }
 
-.accordion-item .accordion-button:not(.collapsed)::after{
+.accordion-item .accordion-button:not(.collapsed)::after {
     margin-top: 9px !important;
 }
 
-.accordion:not(.accordion-flush) .accordion-body{
+.accordion:not(.accordion-flush) .accordion-body {
     padding-top: 1.5rem;
 }
 
@@ -303,17 +310,17 @@ body:hover::-webkit-scrollbar-thumb {
     color: #fff;
 }
 
-.accordion-item h2{
+.accordion-item h2 {
     font-size: 16px;
 }
 
-.team-detail h2{
+.team-detail h2 {
     font-size: 14px;
     margin-bottom: 0;
     font-weight: bold;
-}   
+}
 
-.ci-border{
+.ci-border {
     flex: 1 1 auto;
     margin: 0 8px;
 }
@@ -330,14 +337,14 @@ body:hover::-webkit-scrollbar-thumb {
     display: block;
 }
 
-.ci-border a:hover{
+.ci-border a:hover {
     background-color: rgb(59, 67, 178);
     color: #fff;
     text-decoration: unset;
 }
 
-.ci-shadow img{
-    box-shadow: 0 0 5px rgba(0,0,0,.1);
+.ci-shadow img {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
 }
 
 .btn-2 {
@@ -348,30 +355,409 @@ body:hover::-webkit-scrollbar-thumb {
     font-size: .7rem !important;
 }
 
+/*slider css start*/
+.Advance-Slider {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
 
-@media (max-width:991px){
-    .university-vitez-content{
+.Advance-Slider button.slick-arrow {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    z-index: 99999;
+    border: none;
+    margin: auto;
+    font-size: 0;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.Advance-Slider .img-fill {
+    position: relative;
+    height: 100%;
+}
+
+.Advance-Slider .img-fill img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation: myMove 10s linear infinite;
+}
+
+.Advance-Slider .item {
+    height: 100vh;
+    overflow: hidden;
+    outline: none;
+}
+
+.Advance-Slider button.slick-next.slick-arrow {
+    right: 0;
+    left: auto;
+}
+
+.Advance-Slider button.slick-arrow:before {
+    content: "\f104";
+    top: 0;
+    left: 0;
+    margin: auto;
+    font-family: fontawesome;
+    font-size: 18px;
+}
+
+.Advance-Slider button.slick-next.slick-arrow:before {
+    transform: scaleX(-1);
+    display: block;
+}
+
+.Advance-Slider .img-fill:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #151515;
+    opacity: 0.5;
+}
+
+.Advance-Slider ul.slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Advance-Slider ul.slick-dots li {
+    display: inline-block;
+    height: auto;
+    padding: 0 5px;
+    line-height: 0px;
+}
+
+.Advance-Slider ul.slick-dots li button {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background: #fff;
+    border: none;
+    font-size: 0px;
+    padding: 0px;
+    opacity: 0.5;
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.Advance-Slider ul.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+.Advance-Slider button.slick-arrow {
+    perspective: 360px;
+}
+
+.Advance-Slider button.slick-arrow .thumb {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    left: 100%;
+    top: -28px;
+    transform-origin: 0% 0%;
+    transform: rotate3d(1, 0, 0, 90deg);
+}
+
+.Advance-Slider button.slick-arrow .thumb img {
+    height: 100%;
+    width: 100%;
+}
+
+.Advance-Slider button.slick-next .thumb {
+    left: auto;
+    right: 100%;
+}
+
+.Advance-Slider button.slick-prev.hover-out .thumb,
+.Advance-Slider button.slick-prev .thumb {
+    animation: out-left 300ms ease 0ms 1 forwards;
+}
+
+.Advance-Slider button.slick-prev.hover-in .thumb {
+    animation: in-left 300ms ease 0ms 1 forwards;
+}
+
+.Advance-Slider button.slick-next.hover-out .thumb,
+.Advance-Slider button.slick-next .thumb {
+    animation: out-right 300ms ease 0ms 1 forwards;
+    transform-origin: 100% 50%;
+}
+
+.Advance-Slider button.slick-next.hover-in .thumb {
+    animation: in-right 300ms ease 0ms 1 forwards;
+}
+
+.Advance-Slider button.slick-prev:hover {
+    transform: translateX(-100%);
+}
+
+.Advance-Slider button.slick-prev {
+    transition: all 0.3s ease;
+}
+
+.Advance-Slider button.slick-next:hover {
+    transform: translateX(100%);
+}
+
+.Advance-Slider button.slick-next {
+    transition: all 0.3s ease;
+}
+
+.Advance-Slider ul.slick-dots li button img {
+    height: 0;
+    width: 20px;
+    top: 0;
+    object-fit: cover;
+    transition: height 0.2s ease 0.2s, width 0.2s ease 0s;
+    position: relative;
+    left: -50%;
+}
+
+.Advance-Slider ul.slick-dots li button a {
+    position: absolute;
+    height: 90px;
+    bottom: calc(100%);
+    width: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: all 0.2s ease 0.2s;
+    padding-bottom: 10px;
+}
+
+.Advance-Slider ul.slick-dots li button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.Advance-Slider ul.slick-dots li button:hover img {
+    height: 80px;
+    width: 140px;
+    transition: height 0.2s ease, width 0.2s ease 0.2s;
+}
+
+.Advance-Slider ul.slick-dots li button:hover a {
+    width: 140px;
+    transition: all 0.3s ease 0s;
+}
+
+.Advance-Slider ul.slick-dots li button:hover {
+    opacity: 1;
+}
+
+.Advance-Slider ul.slick-dots li button:before {
+    content: '';
+    bottom: calc(100% + -10px);
+    left: 7px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0px;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #fff;
+    border-width: 10px;
+    margin-left: -10px;
+    opacity: 0;
+    transition: 0.3s ease 350ms;
+}
+
+.Advance-Slider ul.slick-dots li button:hover:before {
+    opacity: 1;
+    transition: 0.3s ease 0s;
+}
+
+.Advance-Slider .item.slick-active {
+    animation: Slick-FastSwipeIn 1s both;
+}
+
+.Advance-Slider .item .contain-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Advance-Slider .item .contain-wrapper .dots-contain {
+    display: none;
+}
+
+.Advance-Slider .item h3 {
+    margin: 0px;
+    color: #fff;
+    font-size: 84px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.Advance-Slider .item {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Advance-Slider .item h5 {
+    font-size: 32px;
+    font-weight: 300;
+    padding: 10px 0 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.Advance-Slider .item .contain-wrapper .info {
+    max-width: 1200px;
+}
+
+.Advance-Slider .item h5 span {
+    color: #00BCD4;
+}
+
+.Advance-Slider .item h3 span {
+    color: #00BCD4;
+}
+
+.Advance-Slider .item h3 {
+    animation: fadeOutRight 1s both;
+}
+
+.Advance-Slider .item.slick-active h3 {
+    animation: fadeInDown 1s both 1s;
+}
+
+.Advance-Slider .item h5 {
+    animation: fadeOutLeft 1s both;
+}
+
+.Advance-Slider .item.slick-active h5 {
+    animation: fadeInLeft 1s both 1.5s;
+}
+
+
+@keyframes myMove {
+    from {
+        transform: scale(1.0, 1.0);
+        transform-origin: 50% 50%;
+    }
+
+    to {
+        transform: scale(1.8, 1.9);
+        transform-origin: 50% 0%;
+    }
+}
+
+@keyframes Slick-FastSwipeIn {
+    0% {
+        transform: rotate3d(0, 1, 0, 150deg) scale(0) perspective(400px);
+    }
+
+    100% {
+        transform: rotate3d(0, 1, 0, 0deg) scale(1) perspective(400px);
+    }
+}
+
+@keyframes in-left {
+    from {
+        -webkit-transform: rotate3d(0, 1, 0, 90deg);
+        transform: rotate3d(0, 1, 0, 90deg);
+    }
+
+    to {
+        -webkit-transform: rotate3d(0, 0, 0, 0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+}
+
+@keyframes out-left {
+    from {
+        -webkit-transform: rotate3d(0, 0, 0, 0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+
+    to {
+        -webkit-transform: rotate3d(0, 1, 0, 86deg);
+        transform: rotate3d(0, 1, 0, 86deg);
+    }
+}
+
+@keyframes in-right {
+    from {
+        -webkit-transform: rotate3d(0, -1, 0, 90deg);
+        transform: rotate3d(0, -1, 0, 90deg);
+    }
+
+    to {
+        -webkit-transform: rotate3d(0, 0, 0, 0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+}
+
+@keyframes out-right {
+    from {
+        -webkit-transform: rotate3d(0, 0, 0, 0deg);
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+
+    to {
+        -webkit-transform: rotate3d(0, -1, 0, 86deg);
+        transform: rotate3d(0, -1, 0, 86deg);
+    }
+}
+
+/*slider css end*/
+
+
+@media (max-width:991px) {
+    .university-vitez-content {
         position: unset;
         transform: unset;
         padding: 0;
     }
+
     .ci-border {
         margin-bottom: 2rem;
     }
 }
 
-@media (max-width:767px){
+@media (max-width:767px) {
     .ci-bg-image p {
         font-size: 1rem;
     }
+
     .ci-border a {
         width: 100%;
         display: block;
         text-align: center;
     }
+
     .ci-border {
         width: 100%;
     }
+
     .ci-border {
         margin-bottom: 1rem;
     }
