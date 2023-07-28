@@ -1,11 +1,21 @@
 @font-face {
     font-family: "Montserrat-Regular";
-    src: url("../fonts/Montserrat-Regular.ttf") format("woff2");
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Montserrat-Bold";
-    src: url("../fonts/Montserrat-Bold.ttf") format("woff2");
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NunitoSans-Regular";
+    src: url("../fonts/NunitoSans-Regular.ttf") format("truetype");
 }
 
 .page-loading {
@@ -631,23 +641,34 @@ body:hover::-webkit-scrollbar-thumb {
 }
 
 .Advance-Slider .item .contain-wrapper .info {
-    max-width: 1200px;
+    text-align: left;
 }
 
 .Advance-Slider .item h5 span {
     color: #00BCD4;
 }
 
-.Advance-Slider .item h3 span {
-    color: #00BCD4;
+.Advance-Slider .item h1 span {
+    color: rgb(59, 67, 178);
 }
 
-.Advance-Slider .item h3 {
+.Advance-Slider .item h1 {
     animation: fadeOutRight 1s both;
 }
 
-.Advance-Slider .item.slick-active h3 {
+.Advance-Slider .item.slick-active h1 {
     animation: fadeInDown 1s both 1s;
+    background-color: rgba(255,255,255,0.62);
+    padding: 20px;
+    font-size: 55px;
+    display: inline-block;
+    color: #1B2336;
+}
+
+.Advance-Slider .item p {
+    background-color: rgba(255,255,255,0.62);
+    padding: 20px;
+    color: #1B2336;
 }
 
 .Advance-Slider .item h5 {
@@ -656,6 +677,10 @@ body:hover::-webkit-scrollbar-thumb {
 
 .Advance-Slider .item.slick-active h5 {
     animation: fadeInLeft 1s both 1.5s;
+}
+
+.Advance-Slider .item h1 , .Advance-Slider .item p{
+    font-family: "Raleway-Regular";
 }
 
 
