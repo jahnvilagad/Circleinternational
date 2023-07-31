@@ -756,6 +756,29 @@ body:hover::-webkit-scrollbar-thumb {
 
 /*slider css end*/
 
+.vc_box_shadow_border{
+    padding: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+
+.bg-round {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 56px;
+}
+
+
+
+@media (max-width:1024px){
+    .ci-border {
+        margin-bottom: 2rem;
+    }
+}
+
 
 @media (max-width:991px) {
     .university-vitez-content {
@@ -764,9 +787,7 @@ body:hover::-webkit-scrollbar-thumb {
         padding: 0;
     }
 
-    .ci-border {
-        margin-bottom: 2rem;
-    }
+   
 }
 
 @media (max-width:767px) {
