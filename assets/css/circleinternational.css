@@ -15368,7 +15368,8 @@ a:focus {
 }
 
 a {
-	transition: color .2s ease-in-out
+	transition: color .2s ease-in-out;
+	cursor: pointer;
 }
 
 img,
