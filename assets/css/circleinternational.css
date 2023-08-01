@@ -4971,7 +4971,8 @@ textarea.form-control.is-invalid {
 	padding: .5625rem 1.25rem;
 	font-size: 1rem;
 	border-radius: .75rem;
-	transition: color .25s ease-in-out, background-color .25s ease-in-out, border-color .25s ease-in-out
+	transition: color .25s ease-in-out, background-color .25s ease-in-out, border-color .25s ease-in-out;
+	font-family: "Montserrat-Bold";
 }
 
 @media(prefers-reduced-motion: reduce) {
@@ -5015,9 +5016,13 @@ fieldset:disabled .btn {
 
 .btn-primary {
 	color: #000;
-	background-color: #766df4;
-	border-color: #766df4;
-	box-shadow: unset
+	background-color: #3b43b2;
+	border-color: #3b43b2;
+	box-shadow: unset;
+	border-radius: .25rem;
+	padding: .6923076923rem 2.2307692308rem !important;
+	font-size: .8rem;
+    line-height: 1.3;
 }
 
 .btn-primary:hover {
@@ -5290,10 +5295,10 @@ fieldset:disabled .btn {
 }
 
 .btn-light {
-	color: #000;
+	color: rgb(59, 67, 178);
 	background-color: #fff;
 	border-color: #fff;
-	box-shadow: unset
+	box-shadow: 0 11px 23px -14px #000;
 }
 
 .btn-light:hover {
@@ -5382,8 +5387,12 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-	color: #766df4;
-	border-color: #766df4
+	color: #3b43b2;
+	border-color: #766df4;
+	border-radius: 50px;
+	border-width: 2px;
+	padding: .4615384615rem 1.8461538462rem !important;
+	font-size: .8rem !important;
 }
 
 .btn-outline-primary:hover {
@@ -6735,7 +6744,8 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-	color: #fff
+	color: #fff;
+	background-color: rgb(59, 67, 178);
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -16127,8 +16137,8 @@ input[type=search]::-webkit-search-results-decoration {
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary.show {
-	background-color: #5549f1;
-	border-color: #5549f1;
+	background-color: #3b43b2;
+	border-color: #3b43b2;
 	color: #fff
 }
 
@@ -16266,9 +16276,10 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .btn-light {
-	border-color: transparent;
-	background-color: #fff;
-	color: #5a5b75
+    border-color: transparent;
+    background-color: #fff;
+    color: rgb(59, 67, 178);
+	border-radius: 50px;
 }
 
 .btn-light:hover,
@@ -16291,7 +16302,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .btn-outline-primary {
-	border-color: rgba(118, 109, 244, .35)
+	border-color: rgb(59, 67, 178)
 }
 
 .btn-outline-success {
@@ -16593,10 +16604,10 @@ input[type=search]::-webkit-search-results-decoration {
 	position: fixed;
 	right: -4.125rem;
 	bottom: 1.25rem;
-	width: 2.75rem;
-	height: 2.75rem;
+	width: 35px;
+	height: 35px;
 	transition: right 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity .3s, background-color .25s ease-in-out;
-	border-radius: .75rem;
+	border-radius: 50%;
 	background-color: rgba(55, 56, 78, .25);
 	color: #fff;
 	text-align: center;
@@ -16605,9 +16616,9 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .btn-scroll-top>.btn-scroll-top-icon {
-	font-size: 1.125rem;
-	font-weight: bold;
-	line-height: 2.625rem
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 2rem;
 }
 
 .btn-scroll-top .btn-scroll-top-tooltip {
