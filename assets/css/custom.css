@@ -18,6 +18,11 @@
     src: url("../fonts/NunitoSans-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "georgia-italic";
+    src: url("../fonts/georgia-italic.ttf") format("truetype");
+}
+
 .page-loading {
     position: fixed;
     top: 0;
@@ -785,6 +790,25 @@ body:hover::-webkit-scrollbar-thumb {
     color: #fff;
 }
 
+.annual-conference .ci-border a{
+    padding: 17px 34px;
+}
+
+
+.vc_box_shadow_circle img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+.testimonial-border{
+    border:5px solid #ededee;
+    margin: 10px;
+}
+
+.testimonial p{
+    font-family: "georgia-italic";
+    font-size: 1rem;
+}
 
 
 @media (max-width:1024px){
