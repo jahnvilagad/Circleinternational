@@ -178,13 +178,13 @@ body:hover::-webkit-scrollbar-thumb {
 }
 
 .bg-course h1 {
-    z-index: 9999;
+    z-index: 5;
     position: relative;
 }
 
 .phd-course {
     margin-top: -4rem;
-    z-index: 9999;
+    z-index: 5;
     text-align: center;
 }
 
@@ -262,6 +262,16 @@ body:hover::-webkit-scrollbar-thumb {
 }
 
 .ci-image-content p,
+.ci-image-content h2 {
+    z-index: 99;
+    position: relative;
+    color: #fff;
+}
+
+.ci-image-content h2 {
+    font-size: 7vw;
+}
+
 .ci-image-content h3 {
     z-index: 99;
     position: relative;
@@ -272,6 +282,12 @@ body:hover::-webkit-scrollbar-thumb {
     font-size: 1.5rem;
 }
 
+.ci-bg-image-1 h2 {
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+    line-height: .25;
+}
 .img-frame {
     position: relative;
 }
@@ -810,6 +826,21 @@ body:hover::-webkit-scrollbar-thumb {
     font-size: 1rem;
 }
 
+.map-bg{
+    background-color: #f7f7f7;
+    padding: 5px;
+}
+
+.ci-bg h3{
+    font-size: 7vw;
+    color: #3b43b2;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    line-height: 3.3vw;
+}
+
 
 @media (max-width:1024px){
     .ci-border {
@@ -824,7 +855,11 @@ body:hover::-webkit-scrollbar-thumb {
         transform: unset;
         padding: 0;
     }
-
+    .nav-item.dropdown i {
+        position: absolute;
+        right:1rem;
+        top: 0.75rem;
+    }
    
 }
 
@@ -845,5 +880,17 @@ body:hover::-webkit-scrollbar-thumb {
 
     .ci-border {
         margin-bottom: 1rem;
+    }
+    .ci-bg-image-1 h2 {
+        bottom: -8px;
+    }
+    .ci-image-content p {
+        font-size: 1rem;
+    }
+    .table{
+        white-space: nowrap;
+    }
+    .topbar {
+        padding: 1rem 0.9375rem;
     }
 }

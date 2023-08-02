@@ -5397,8 +5397,8 @@ fieldset:disabled .btn {
 
 .btn-outline-primary:hover {
 	color: #000;
-	background-color: #766df4;
-	border-color: #766df4
+	background-color: rgb(59, 67, 178);
+	border-color: rgb(59, 67, 178)
 }
 
 .btn-check:focus+.btn-outline-primary,
@@ -17082,7 +17082,7 @@ input[type=search]::-webkit-search-results-decoration {
 
 .dropdown-toggle::after {
 	margin-left: .25rem;
-	content: "\F282"
+	/* content: "\F282" */
 }
 
 .dropdown-toggle::before {
@@ -21053,7 +21053,7 @@ _:-ms-lang(x),
 		color: #5a5b75
 	}
 	.offcanvas-collapse .offcanvas-body .navbar-nav .dropdown-menu .dropdown-item:hover {
-		color: #766df4
+		color: #5a5b75
 	}
 	.offcanvas-collapse .offcanvas-body .navbar-nav .dropdown-menu .dropdown-item.active {
 		color: #766df4
