@@ -218,7 +218,7 @@ body:hover::-webkit-scrollbar-thumb {
 
 .ci-bg-image {
     position: relative;
-    background-image: url("../img/feather/testimonial-bg-circle-international.jpg");
+    background-image: url("../img/feather/testimonial-bg-circle-international.webp");
     background-position: 100% center;
     background-size: cover;
     width: 100%;
@@ -839,6 +839,12 @@ body:hover::-webkit-scrollbar-thumb {
     bottom: 0;
     transform: translateX(-50%);
     line-height: 3.3vw;
+    bottom: 5px;
+}
+
+.date-icon i{
+    color: #5aa1e3;
+    font-size: 2.85em;
 }
 
 
@@ -860,7 +866,10 @@ body:hover::-webkit-scrollbar-thumb {
         right:1rem;
         top: 0.75rem;
     }
-   
+
+   .ci-bg h3 {
+        bottom: -7px;
+    }
 }
 
 @media (max-width:767px) {
