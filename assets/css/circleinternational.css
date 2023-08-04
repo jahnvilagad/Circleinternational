@@ -4274,17 +4274,17 @@ textarea.form-control-lg {
 	width: 100%;
 	padding: .5625rem 2.25rem .5625rem 1.125rem;
 	-moz-padding-start: calc(1.125rem - 3px);
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
-	color: #737491;
+	font-size: .8rem;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #495057;
 	background-color: #fff;
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%234a4b65' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
 	background-repeat: no-repeat;
 	background-position: right 1.125rem center;
 	background-size: 16px 12px;
-	border: 1px solid #dfdfeb;
-	border-radius: .75rem;
+	border: 1px solid #dee2e6;
+    border-radius: unset;
 	box-shadow: inset 0 1px 2px transparent;
 	transition: border-color .2s ease-in-out, box-shadow .2s ease-in-out;
 	-webkit-appearance: none;
@@ -7142,7 +7142,7 @@ fieldset:disabled .btn {
 }
 
 .breadcrumb-item.active {
-	color: #707070
+    color: #000;
 }
 
 .pagination {
@@ -16795,7 +16795,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .bs-facebook:hover {
-	background-color: #3b5998
+	background-color: #3b5998 !important
 }
 
 .bs-facebook:hover.bs-light {
@@ -16803,7 +16803,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .bs-twitter:hover {
-	background-color: #1da1f2
+	background-color: #1da1f2 !important
 }
 
 .bs-twitter:hover.bs-light {
@@ -16827,7 +16827,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .bs-linkedin:hover {
-	background-color: #0077b5
+	background-color: #0077b5 !important
 }
 
 .bs-linkedin:hover.bs-light {
