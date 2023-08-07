@@ -14,6 +14,16 @@
 	src: url("../fonts/OpenSans.ttf") format("woff2");
   }
 
+  @font-face {
+    font-family: "Raleway-Regular";
+    src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NunitoSans-Regular";
+    src: url("../fonts/NunitoSans-Regular.ttf") format("truetype");
+}
+
   .bi::before,
   [class^="bi-"]::before,
   [class*="bi-"]::before {
@@ -6189,7 +6199,7 @@ fieldset:disabled .btn {
 	color: #5a5b75;
 	transition: color .25s ease-in-out, background-color .25s ease-in-out, box-shadow .25s ease-in-out, border-color .25s ease-in-out;
 	font-family: "Montserrat",sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 @media(prefers-reduced-motion: reduce) {
@@ -17925,7 +17935,8 @@ input[type=search]::-webkit-search-results-decoration {
 .navbar-tool>a {
 	color: #5a5b75;
 	transition: color .25s ease-in-out;
-	text-decoration: none
+	text-decoration: underline;
+    font-weight: bold;
 }
 
 .navbar-tool>a:hover {
@@ -19808,11 +19819,21 @@ a.card-floating-icon:hover {
 }
 
 .from-top {
-	transform: translateY(-2.25rem)
+	transform: translateY(-2.25rem);
+	background-color: rgba(255,255,255,0.62);
+    display: inline-block;
+    padding: 14px;
+	font-family: "Raleway-Regular";
+	font-size: 55px;
 }
 
 .from-bottom {
-	transform: translateY(2.25rem)
+	transform: translateY(2.25rem);
+	background-color: rgba(255, 255, 255, 0.84);
+    display: inline-block;
+    padding: 14px;
+	font-family: "NunitoSans-Regular";
+	color: rgb(65, 86, 116);
 }
 
 .from-left {
@@ -19845,6 +19866,10 @@ a.card-floating-icon:hover {
 
 .delay-4 {
 	transition-delay: 1.1s
+}
+
+.delay-5 {
+	transition-delay: 1.3s
 }
 
 .tns-slide-active .from-top,
@@ -20139,7 +20164,8 @@ a.card-floating-icon:hover {
 	width: 100%;
 	padding-top: 1.75rem;
 	text-align: right;
-	white-space: nowrap
+	white-space: nowrap;
+	display: none;
 }
 
 .tns-carousel-wrapper .tns-controls:focus {
