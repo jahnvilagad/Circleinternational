@@ -72,8 +72,10 @@
     float: right
 }
 
-.slick-slide img {
-    display: block
+.slick-slide img.banner-img {
+    display: block;
+    height: 680px;
+    object-fit: cover;
 }
 
 .slick-slide.slick-loading img {
@@ -100,4 +102,10 @@
 
 .slick-arrow.slick-hidden {
     display: none
+}
+
+@media (max-width:767px){
+    .slick-slide img.banner-img {
+        height: 490px;
+    }
 }

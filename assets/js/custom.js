@@ -48,9 +48,10 @@
   });
   $slider_ini.slick({
       autoplay:true,
-      autoplaySpeed:4000,
+      autoplaySpeed:5000,
       speed:1000,
       loop:true,
+      fade: true,
       slidesToShow:1,
       slidesToScroll:1,
       dots:true,

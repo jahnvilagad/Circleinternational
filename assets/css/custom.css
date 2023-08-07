@@ -720,11 +720,11 @@ body:hover::-webkit-scrollbar-thumb {
 }
 
 
-.Advance-Slider ul.slick-dots li button:hover img {
+/* .Advance-Slider ul.slick-dots li button:hover img {
     height: 80px;
     width: 140px;
     transition: height 0.2s ease, width 0.2s ease 0.2s;
-}
+} */
 
 .Advance-Slider ul.slick-dots li button:hover a {
     width: 140px;
@@ -800,9 +800,21 @@ body:hover::-webkit-scrollbar-thumb {
     .ci-bg h3 {
         bottom: -7px;
     }
+    .from-top {
+        font-size: 30px !important;
+    }
+    .contain-wrapper .fs-lg {
+        font-size: 14px !important;
+    } 
 }
 
 @media (max-width:767px) {
+    .from-top {
+        font-size: 23px !important;
+    }
+    .contain-wrapper .w-50 {
+        width: 80% !important;
+    }
     .navbar-shadow {
         border-top: unset;
     }
@@ -847,5 +859,8 @@ body:hover::-webkit-scrollbar-thumb {
 
     .topbar {
         padding: 1rem 0.9375rem;
+    }
+    .Advance-Slider button.slick-arrow{
+        display: none !important;
     }
 }
