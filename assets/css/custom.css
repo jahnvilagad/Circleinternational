@@ -523,7 +523,7 @@ body:hover::-webkit-scrollbar-thumb {
 .slick-active .from-top,
 .slick-active .from-bottom {
 	transform: translateY(0);
-	opacity: 1
+	opacity: 1;
 }
 
 .slick-active .from-left,
@@ -535,7 +535,6 @@ body:hover::-webkit-scrollbar-thumb {
 .slick-active .fade-in {
 	opacity: 1
 }
-
 
 .Advance-Slider button.slick-arrow {
     position: absolute;
@@ -556,21 +555,7 @@ body:hover::-webkit-scrollbar-thumb {
 
 .Advance-Slider .img-fill {
     position: relative;
-    /* height: 100%; */
-}
-
-/* .Advance-Slider .img-fill img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    animation: myMove 10s linear infinite;
-} */
-
-/* .Advance-Slider .item {
-    height: 100vh;
-    overflow: hidden;
-    outline: none;
-} */
+ }
 
 .Advance-Slider button.slick-next.slick-arrow {
     right: 0;
@@ -590,17 +575,6 @@ body:hover::-webkit-scrollbar-thumb {
     transform: scaleX(-1);
     display: block;
 }
-
-/* .Advance-Slider .img-fill:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #151515;
-    opacity: 0.5;
-} */
 
 .Advance-Slider ul.slick-dots {
     position: absolute;
@@ -624,7 +598,6 @@ body:hover::-webkit-scrollbar-thumb {
     width: 15px;
     border-radius: 100%;
     background: transparent;
-    /* border: none; */
     font-size: 0px;
     padding: 0px;
     outline: none;
@@ -719,13 +692,6 @@ body:hover::-webkit-scrollbar-thumb {
     justify-content: center;
 }
 
-
-/* .Advance-Slider ul.slick-dots li button:hover img {
-    height: 80px;
-    width: 140px;
-    transition: height 0.2s ease, width 0.2s ease 0.2s;
-} */
-
 .Advance-Slider ul.slick-dots li button:hover a {
     width: 140px;
     transition: all 0.3s ease 0s;
@@ -753,6 +719,8 @@ body:hover::-webkit-scrollbar-thumb {
 .Advance-Slider .item .contain-wrapper .dots-contain {
     display: none;
 }
+
+
 
 @keyframes in-left{
     from{-webkit-transform:rotate3d(0,1,0,90deg);transform:rotate3d(0,1,0,90deg);}
@@ -862,5 +830,9 @@ body:hover::-webkit-scrollbar-thumb {
     }
     .Advance-Slider button.slick-arrow{
         display: none !important;
+    }
+    .vitez-logo {
+        width: 180px;
+        margin-top: 1rem;
     }
 }
