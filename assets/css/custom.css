@@ -906,11 +906,28 @@ body:hover::-webkit-scrollbar-thumb {
         font-size: 30px !important;
     }
     .contain-wrapper .fs-lg {
-        font-size: 14px !important;
+        font-size: 13px !important;
     } 
+    .Advance-Slider .item h1 {
+        font-size: 30px;
+    }
+    .slick-slide img.banner-img {
+        height: 400px !important;
+    }
 }
 
 @media (max-width:767px) {
+    .Advance-Slider .item h1 {
+        font-size: 18px;
+        padding: 8px;
+    }
+    .Advance-Slider .item p {
+        padding: 8px;
+    }
+    .slider-btn , .slider-btn1{
+        padding: 8px 15px !important;
+        font-size: 13px;
+    }
     .from-top {
         font-size: 23px !important;
     }
@@ -966,7 +983,7 @@ body:hover::-webkit-scrollbar-thumb {
         display: none !important;
     }
     .vitez-logo {
-        width: 180px;
+        width: 125px;
         margin-top: 1rem;
     }
 }
